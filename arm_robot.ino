@@ -7,7 +7,6 @@
 #include <Servo.h> 
 #include <ros.h>
 #include <ros/time.h>
-//#include <sensor_msgs/Range.h>
 #include <std_msgs/Float32.h>
 #include <arm_robot/servo.h>
 
@@ -54,8 +53,6 @@ void setup(){
   servo4.attach(11); 
   servo5.attach(12); 
   servo6.attach(13);
-
-//  Serial.begin(1000000);
 }
 
 std_msgs::Float32 getRange(int echoPin, int trigPin){
