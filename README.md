@@ -7,3 +7,8 @@
 2. rosrun rosserial_python serial_node.py
 
 3. rosrun arm_robot kinematics.py
+
+### Inverse Kinematics Simulation
+1. roscore
+
+2. rosrun arm_robot simulation.py
