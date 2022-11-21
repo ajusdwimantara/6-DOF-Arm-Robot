@@ -1,5 +1,5 @@
-# 6-DOF-Arm-Robot
-6 DOF arm robot autonomous program using distance sensor. The program is ros-based and the servos are controlled using arduino (arm_robot.ino).
+# 6-DOF-Manipulator-Robot
+Autonomous 6 DOF manipulator robot program integrated with distance sensor. The program is ros-based and the servos are controlled using arduino (arm_robot.ino).
 
 ### Usage
 1. roscore
